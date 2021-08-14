@@ -1,0 +1,82 @@
+<template>
+  <div class="container">
+    <div class="intro">
+      <img src="../assets/myphoto.jpg" alt="img loading">
+      <h3>Rushikesh Chougule</h3>
+      <h4>The Web Developer</h4>
+    </div>
+    <div class="technologies">
+      <h3>Technologies</h3>
+      <p>I am familier with HTML5, CSS3, JavaScript, Git & Web Hosting</p>
+    </div>
+    <div class="projects">
+      <h3>Projects</h3>
+      <p>I have developed some projects & deployed online you can see them by clicking below button</p>
+      <router-link to="Projects" class="btn">See My Projects</router-link>
+    </div>
+    <div class="blogs">
+      <h3>Blogs</h3>
+      <p>I have also written some technical & non-technical blogs you can see them by clicking below buttton</p>
+      <router-link to="Blogs" class="btn">Read My Blogs</router-link>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+    name:'Home',
+    components:{
+    },
+    methods:{
+      prjcomp(){
+        
+      }
+    }
+}
+</script>
+
+<style scoped>
+.container{
+  text-align: center;
+  padding: .5rem;
+}
+
+img{
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:1rem 0;
+}
+
+.intro{
+}
+
+.technologies{
+  background-color: #F3F4F6;
+  padding: .6rem 0;
+}
+
+.projects{
+  padding: .6rem 0;
+}
+
+.blogs{
+  background-color: #F3F4F6;
+  padding: .6rem 0;
+}
+
+.btn{
+  border: none;
+  text-decoration: none;
+  color: black;
+  padding: .6rem;
+  border-radius: 10px;
+  background-color: #bbb;
+}
+
+.btn:hover{
+  background-color: #ddd;
+}
+</style>
