@@ -7,7 +7,7 @@
       </div>
       <div class="blog2 blog">
         <h2 class="blog-title">LED Interfacing with 8051</h2>
-        <p class="blog-content">Headless OS installation on Raspbery Pi</p>
+        <p class="blog-content">With the advancement in technology chips are getting fabricated in lesser space</p>
         <router-link class="blog-link" to="blogb">Read More...</router-link>
       </div>
       <div class="blog3 blog">
