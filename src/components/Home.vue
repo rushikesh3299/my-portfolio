@@ -50,9 +50,6 @@ img{
   padding:1rem 0;
 }
 
-.intro{
-}
-
 .technologies{
   background-color: #F3F4F6;
   padding: .6rem 0;

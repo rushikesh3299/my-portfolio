@@ -7,7 +7,7 @@
         <h4>{{prj.title}}</h4>
         <p>{{prj.date}}</p>
         <p class="discription">{{prj.discription}}</p>
-        <a :href="prj.liveLink" target="_blank">Project link</a>
+        <a :href="prj.liveLink" target="_blank">See MyProject</a>
         <a :href="prj.githubLink" target="_blank">See My Code</a>
       </div>
   </div>
@@ -111,12 +111,10 @@ export default {
 }
 
 .project-list{
-  border-bottom: 1px solid black;
   padding: 1rem;
-}
-
-.project-list:last-child{
-  border: none;
+  border: 2px solid #bbb;
+  margin-bottom: .5rem;
+  border-radius: 10px;
 }
 
 .project-list h4, .project-list p{
@@ -140,5 +138,11 @@ export default {
 
 .project-list a:hover{
   background-color: #ddd;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-list a{
+    width: 60%;
+  }
 }
 </style>

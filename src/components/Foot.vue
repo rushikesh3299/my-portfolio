@@ -50,4 +50,10 @@ export default {
 .footer a:hover{
   color: black;
 }
+
+@media only screen and (max-width: 800px) {
+  .footer-info a{
+    display: block;
+  }
+}
 </style>
