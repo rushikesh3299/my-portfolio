@@ -41,9 +41,9 @@ export default {
             githubLink:"https://github.com/rushikesh3299/banana-talk"
           },
           {
-            title:"Yoda Talk",
+            title:"Fun Translator",
             date:"July, 2021",
-            discription:"A yoda language translator app",
+            discription:"A multiple fun language translator app",
             liveLink:"https://yodatalk3299.netlify.app/",
             githubLink:"https://github.com/rushikesh3299/yoda-talk"
           },
@@ -92,9 +92,9 @@ export default {
           {
             title:"Stock Profit/Loss",
             date:"August, 2021",
-            discription:"An an that calculates profit or loss made in stock market.",
-            liveLink:"",
-            githubLink:""
+            discription:"An app that calculates profit or loss made in stock market.",
+            liveLink:"https://stockproloss.netlify.app/",
+            githubLink:"https://github.com/rushikesh3299/stock-market-app"
           }
         ]
       }
