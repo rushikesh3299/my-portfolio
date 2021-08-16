@@ -106,7 +106,7 @@ export default {
 .container{
   display: flex;
   flex-direction: column;  
-  max-width: 500px;
+  width: 500px;
   margin: auto;
 }
 
@@ -141,8 +141,11 @@ export default {
 }
 
 @media only screen and (max-width: 800px) {
+  .container{
+    width: 80%;
+  }
   .project-list a{
-    width: 60%;
+    width: 40%;
   }
 }
 </style>
