@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+      <div class="page-title">
+        <h3>See My Blogs</h3>
+      </div>
       <div class="blog1 blog">
         <h2 class="blog-title">Headless OS installation on Raspbery Pi</h2>
         <p class="blog-content">Headless OS installation on Raspbery Pi</p>
