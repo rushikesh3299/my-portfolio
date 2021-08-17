@@ -22,77 +22,77 @@ export default {
           {
             title:"How well do you Know me?",
             date:"July, 2021",
-            discription:"Quiz designed using vanilla Javascript",
+            discription:"A CLI Quiz designed using vanilla Javascript",
             liveLink:"https://replit.com/@rushikesh3299/markOne#index.js",
             githubLink:"https://github.com/rushikesh3299/neoCamp-markOne"
           },
           {
             title:"How well do you Know India?",
             date:"July, 2021",
-            discription:"Quiz designed using vanilla Javascript which tests your knowldge about India",
+            discription:"A CLI Quiz designed using vanilla Javascript which tests your knowldge about India",
             liveLink:"https://replit.com/@rushikesh3299/markTwo#index.js",
             githubLink:"https://github.com/rushikesh3299/neoGcamp-markTwo"
           },
           {
             title:"Banana Talk",
             date:"July, 2021",
-            discription:"A minions language translation app",
+            discription:"A minions language translation app using free api services of funtranslations.com",
             liveLink:"https://bananatalk3299.netlify.app/",
             githubLink:"https://github.com/rushikesh3299/banana-talk"
           },
           {
             title:"Fun Translator",
             date:"July, 2021",
-            discription:"A multiple fun language translator app",
+            discription:"A multiple fun language translator app using free api services of funtranslations.com",
             liveLink:"https://yodatalk3299.netlify.app/",
             githubLink:"https://github.com/rushikesh3299/yoda-talk"
           },
           {
             title:"Emoji Detector",
             date:"July, 2021",
-            discription:"An emoji detector app",
+            discription:"An emoji detector app designed in ReactJS",
             liveLink:"https://ejyuy.csb.app/",
             githubLink:"https://github.com/rushikesh3299/neog-emoji-detect"
           },
           {
             title:"Book recommendation App",
             date:"July, 2021",
-            discription:"This app will recommed you a book baced on selected genere.",
+            discription:"An app which will recommed you a book baced on genre selected by you",
             liveLink:"https://fr3ko.csb.app/",
             githubLink:"https://github.com/rushikesh3299/book-recommend"
           },
           {
             title:"Cash Register App",
             date:"August, 2021",
-            discription:"An app that will tell you how much change you should return to your customar.",
+            discription:"An app that will tell you how much change you should return to your customar in detail with denominations",
             liveLink:"https://cashchangeprj.netlify.app",
             githubLink:"https://github.com/rushikesh3299/cash-change-prj"
           },
           {
             title:"Birthday Lucky",
             date:"August, 2021",
-            discription:"An app that will tell you weather your birthday is lucky or not.",
+            discription:"An app that will tell you weather your birthday is lucky or not",
             liveLink:"https://birthdaylucky3299.netlify.app",
             githubLink:"https://github.com/rushikesh3299/birthday-lucky"
           },
           {
             title:"Triangle Quiz",
             date:"August, 2021",
-            discription:"An app with all functions related to triangle arithmatic.",
+            discription:"An app with all geometric functions related to triangle arithmatic & a quiz based on triangle",
             liveLink:"https://PlayWithTriangle.rushikesh3299.repl.co",
             githubLink:"https://github.com/rushikesh3299/play-with-triangle"
           },
           {
             title:"Birthday Palindrome",
             date:"August, 2021",
-            discription:"An app that will tell you weather your birthday is palindrome or not.",
+            discription:"An app that will tell you weather your birthday is palindrome or not & the nearest palindrome date according to your birth date",
             liveLink:"https://birthdaypalindrome3299.netlify.app",
             githubLink:"https://github.com/rushikesh3299/birthday-palindrome"
           },
           {
             title:"Stock Profit/Loss",
             date:"August, 2021",
-            discription:"An app that calculates profit or loss made in stock market.",
+            discription:"An app that calculates profit or loss made in stock market using free api service of AlphaVantage",
             liveLink:"https://stockproloss.netlify.app/",
             githubLink:"https://github.com/rushikesh3299/stock-market-app"
           }
