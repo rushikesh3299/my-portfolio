@@ -57,6 +57,12 @@ export default {
 
   .nav-links{
     justify-content: center;
+    padding: 0;
+  }
+
+  h3{
+    margin-bottom: 0;
+    font-size: 1.4em;
   }
 }
 
