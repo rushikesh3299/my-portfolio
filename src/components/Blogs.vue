@@ -4,13 +4,13 @@
         <h3>See My Blogs</h3>
       </div>
       <div class="blog1 blog">
-        <h2 class="blog-title">Headless OS installation on Raspbery Pi</h2>
-        <p class="blog-content">Headless OS installation on Raspbery Pi</p>
+        <h2 class="blog-title">OS Installation On Raspberry Pi</h2>
+        <p class="blog-content">Raspberry Pi has become the embedded programmers & students first choice</p>
         <router-link class="blog-link" to="bloga">Read More...</router-link>
       </div>
       <div class="blog2 blog">
         <h2 class="blog-title">LED Interfacing with 8051</h2>
-        <p class="blog-content">With the advancement in technology chips are getting fabricated in lesser space</p>
+        <p class="blog-content">With the advancement in technology chips are getting fabricated in lesser</p>
         <router-link class="blog-link" to="blogb">Read More...</router-link>
       </div>
       <div class="blog3 blog">
@@ -43,9 +43,15 @@ export default {
 .blog-link{
   text-decoration:none;
   color: black;
-  background-color: #ddd;
+  background-color: #bbb;
   padding: 0.5rem;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container{
+    width: 85%;
+  }
 }
 
 </style>
