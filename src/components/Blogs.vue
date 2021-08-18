@@ -4,16 +4,21 @@
         <h3>See My Blogs</h3>
       </div>
       <div class="blog1 blog">
+        <h2 class="blog-title">Portable Programmable Medicine Reminder</h2>
+        <p class="blog-content">Elder people or people with Alzheimer’s disease always forgot to take their medicine</p>
+        <router-link class="blog-link" to="blogc">Read More...</router-link>
+      </div>
+      <div class="blog2 blog">
         <h2 class="blog-title">OS Installation On Raspberry Pi</h2>
         <p class="blog-content">Raspberry Pi has become the embedded programmers & students first choice</p>
         <router-link class="blog-link" to="bloga">Read More...</router-link>
       </div>
-      <div class="blog2 blog">
+      <div class="blog3 blog">
         <h2 class="blog-title">LED Interfacing with 8051</h2>
         <p class="blog-content">With the advancement in technology chips are getting fabricated in lesser</p>
         <router-link class="blog-link" to="blogb">Read More...</router-link>
       </div>
-      <div class="blog3 blog">
+      <div class="blog4 blog">
         <h2 class="blog-title">coming soon</h2>
         <p class="blog-content"></p>
         <router-link class="blog-link" to="#" aria-disabled="">Read More...</router-link>
