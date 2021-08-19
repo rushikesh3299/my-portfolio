@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Portable Programmable Medicine Reminder</h1>
     <h3>Abstract</h3>
-    <p>The project will take care of people who requires to reminder & forgot to take their medicine on time. Elder people or people with Alzheimer’s disease always forgot to take medicines on time due to their age & medical conditions. The project will help to remind the patient to take his/her medicines at prescribed time by doctors.</p>
+    <p>The project will take care of people who requires the reminder & forgot to take their medicine on time. Elder people or people with Alzheimer’s disease always forgot to take medicines on time due to their age & medical conditions. The project will help to remind the patient to take his/her medicines at prescribed time by doctors.</p>
     <p>The patient can store the respective time of the particular medicine through a matrix keypad. Based on the time entered by user the program will run on microcontroller with reference of real time from RTC (Real time clock) & when current timing matches with time entered by user the buzzer will sound & name of the medicine to be taken will be displayed.</p>
     <h3>Block Diagram</h3>
     <img src="../assets/block_dia.jpg" alt="">
