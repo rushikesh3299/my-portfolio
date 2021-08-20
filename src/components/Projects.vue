@@ -112,7 +112,7 @@ export default {
 
 .project-list{
   padding: 1rem;
-  border: 2px solid #bbb;
+  border: 2px solid tomato;
   margin-bottom: .5rem;
   border-radius: 10px;
 }
@@ -131,13 +131,13 @@ export default {
   color: black;
   padding: .5rem;
   margin: 1rem 1rem 1rem 0;
-  background-color: #bbb;
+  background-color: #FFD0C6;
   border-radius: 10px;
   width: 150px;
 }
 
 .project-list a:hover{
-  background-color: #ddd;
+  background-color: #FF8970;
 }
 
 @media only screen and (max-width: 800px) {

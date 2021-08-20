@@ -41,6 +41,10 @@ export default {
   padding: .5rem;
 }
 
+h3{
+  margin: 0;
+}
+
 img{
   height: 300px;
   border-radius: 50%;
@@ -51,17 +55,18 @@ img{
 }
 
 .technologies{
-  background-color: #F3F4F6;
+  background-color: #FFF3F0 ;
   padding: .6rem 0;
 }
 
 .projects{
-  padding: .6rem 0;
+  padding: 1rem 0;
 }
 
 .blogs{
-  background-color: #F3F4F6;
-  padding: .6rem 0;
+  background-color: #FFF3F0 ;
+  padding-bottom: 1.2rem;
+  padding-top: .6rem;
 }
 
 .btn{
@@ -70,10 +75,10 @@ img{
   color: black;
   padding: .6rem;
   border-radius: 10px;
-  background-color: #bbb;
+  background-color: #FFD0C6;
 }
 
 .btn:hover{
-  background-color: #ddd;
+  background-color: #FF8970;
 }
 </style>
