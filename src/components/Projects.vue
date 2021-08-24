@@ -3,12 +3,14 @@
       <div class="page-title">
         <h3>See My Projects</h3>
       </div>
-      <div v-for="prj in prjList" :key="prj.title" class="project-list">
-        <h4>{{prj.title}}</h4>
-        <p>{{prj.date}}</p>
-        <p class="discription">{{prj.discription}}</p>
-        <a :href="prj.liveLink" target="_blank">See MyProject</a>
-        <a :href="prj.githubLink" target="_blank">See My Code</a>
+      <div class="project-section">
+        <div v-for="prj in prjList" :key="prj.title" class="project-list">
+          <h4>{{prj.title}}</h4>
+          <p>{{prj.date}}</p>
+          <p class="discription">{{prj.discription}}</p>
+          <a :href="prj.liveLink" target="_blank">See MyProject</a>
+          <a :href="prj.githubLink" target="_blank">See My Code</a>
+        </div>
       </div>
   </div>
 </template>
@@ -106,15 +108,27 @@ export default {
 .container{
   display: flex;
   flex-direction: column;  
-  width: 500px;
   margin: auto;
 }
 
+.page-title{
+  padding-left: 1rem;
+}
+
+.project-section{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .project-list{
+  box-sizing: border-box;
   padding: 1rem;
   border: 2px solid tomato;
-  margin-bottom: .5rem;
+  margin: .5rem;
   border-radius: 10px;
+  width: 280px;
+  height: 300px;
 }
 
 .project-list h4, .project-list p{
@@ -146,6 +160,10 @@ export default {
   }
   .project-list a{
     width: 40%;
+  }
+  .project-list{
+    width: 100%;
+    height: auto;
   }
 }
 </style>
