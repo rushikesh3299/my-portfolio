@@ -8,8 +8,10 @@
           <h4>{{prj.title}}</h4>
           <p>{{prj.date}}</p>
           <p class="discription">{{prj.discription}}</p>
-          <a :href="prj.liveLink" target="_blank">See MyProject</a>
-          <a :href="prj.githubLink" target="_blank">See My Code</a>
+          <div class="prj-nav-btn">
+            <a :href="prj.liveLink" target="_blank">See MyProject</a>
+            <a :href="prj.githubLink" target="_blank">See My Code</a>
+          </div>
         </div>
       </div>
   </div>
@@ -128,7 +130,8 @@ export default {
   margin: .5rem;
   border-radius: 10px;
   width: 280px;
-  height: 300px;
+  height: 270px;
+  position: relative;
 }
 
 .project-list h4, .project-list p{
@@ -154,6 +157,11 @@ export default {
   background-color: #A569BD;
 }
 
+.prj-nav-btn{
+  position: absolute;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 800px) {
   .container{
     width: 80%;
@@ -164,6 +172,9 @@ export default {
   .project-list{
     width: 100%;
     height: auto;
+  }
+  .prj-nav-btn{
+    position: static;
   }
 }
 </style>
