@@ -15,7 +15,7 @@
       <h4>Code:</h4>
       <img src="../assets/code_snip.jpg" alt="img loading">
       <h4>Inside the code</h4>
-      <p>The program shown above is of very basic & beginner friendly level. The code is built & compiled using Keil uvision compiler. In the program the library for 8051 based microcontrollers is included using <span>#include<reg51.h/></span>. Then the port for led interfacing is defined with <span> #define led P1</span>. The <span> void delay (int d)</span> will generated delay according to value passed to d. In the main loop we have made led on <span>led=0xff;</span> & off <span>led=0x00;</span> infinitely.</p>
+      <p class="line">The program shown above is of very basic & beginner friendly level. The code is built & compiled using Keil uvision compiler. In the program the library for 8051 based microcontrollers is included using <span>#include<reg51.h/></span>. Then the port for led interfacing is defined with <span> #define led P1</span>. The <span> void delay (int d)</span> will generated delay according to value passed to d. In the main loop we have made led on <span>led=0xff;</span> & off <span>led=0x00;</span> infinitely.</p>
   </div>
 </template>
 
@@ -37,5 +37,9 @@ export default {
 
   span{
     background-color: #ccc;
+  }
+
+  .line{
+    line-height: 1.5;
   }
 </style>
