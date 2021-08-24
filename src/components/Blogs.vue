@@ -41,20 +41,20 @@ export default {
 .blog{
   margin: 1rem;
   padding: 0 1rem 1rem 1rem;
-  border: 2px solid tomato;
+  border: 2px solid #5B2C6F;
   border-radius: 10px;
 }
 
 .blog-link{
   text-decoration:none;
   color: black;
-  background-color: #FFD0C6 ;
+  background-color: #C39BD3 ;
   padding: 0.5rem;
   border-radius: 10px;
 }
 
 .blog-link:hover{
-  background-color: #FF8970 ;
+  background-color: #A569BD ;
 }
 
 @media only screen and (max-width: 800px) {

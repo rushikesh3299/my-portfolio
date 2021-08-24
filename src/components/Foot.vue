@@ -24,7 +24,7 @@ export default {
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 .container{
   text-align: center;
-  border-top: 2px solid tomato;
+  border-top: 2px solid #5B2C6F;
   margin-top: 1rem;
 }
 

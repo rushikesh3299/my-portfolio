@@ -55,18 +55,21 @@ img{
 }
 
 .technologies{
-  background-color: #FFF3F0 ;
+  background-color: #F4ECF7 ;
   padding: .6rem 0;
+  border-radius: 10px;
 }
 
 .projects{
   padding: 1rem 0;
+  border-radius: 10px;
 }
 
 .blogs{
-  background-color: #FFF3F0 ;
+  background-color: #F4ECF7 ;
   padding-bottom: 1.2rem;
   padding-top: .6rem;
+  border-radius: 10px;
 }
 
 .btn{
@@ -75,10 +78,10 @@ img{
   color: black;
   padding: .6rem;
   border-radius: 10px;
-  background-color: #FFD0C6;
+  background-color: #C39BD3;
 }
 
 .btn:hover{
-  background-color: #FF8970;
+  background-color: #A569BD;
 }
 </style>

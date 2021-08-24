@@ -22,7 +22,7 @@ export default {
 .container{
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid #5B2C6F;
 }
 
 .title-name{

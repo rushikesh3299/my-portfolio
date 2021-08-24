@@ -124,7 +124,7 @@ export default {
 .project-list{
   box-sizing: border-box;
   padding: 1rem;
-  border: 2px solid tomato;
+  border: 2px solid #5B2C6F;
   margin: .5rem;
   border-radius: 10px;
   width: 280px;
@@ -145,13 +145,13 @@ export default {
   color: black;
   padding: .5rem;
   margin: 1rem 1rem 1rem 0;
-  background-color: #FFD0C6;
+  background-color: #C39BD3;
   border-radius: 10px;
   width: 150px;
 }
 
 .project-list a:hover{
-  background-color: #FF8970;
+  background-color: #A569BD;
 }
 
 @media only screen and (max-width: 800px) {
