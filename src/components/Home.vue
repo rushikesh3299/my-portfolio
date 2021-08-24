@@ -1,13 +1,17 @@
 <template>
   <div class="container">
     <div class="intro">
-      <img src="../assets/myphoto.jpg" alt="img loading">
+      <img class="top-img" src="../assets/myphoto.jpg" alt="img loading">
       <h3>Rushikesh Chougule</h3>
       <h4>The Web Developer</h4>
     </div>
     <div class="technologies">
       <h3>Technologies</h3>
       <p>I am familier with HTML5, CSS3, JavaScript, Git & Web Hosting</p>
+      <img src="html.svg" alt="">
+      <img src="css.svg" alt="">
+      <img src="js.svg" alt="">
+      <img src="git.svg" alt="">
     </div>
     <div class="projects">
       <h3>Projects</h3>
@@ -46,6 +50,12 @@ h3{
 }
 
 img{
+  height: 50px;
+  padding: .5rem;
+  margin: 0 1rem;
+}
+
+.top-img{
   height: 300px;
   display: block;
   margin-left: auto;
