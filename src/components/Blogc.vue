@@ -21,6 +21,8 @@
         <li>Right now, our controller has the names of medicine stored on it for which we can enter timing if they are prescribed to us. </li>
         <li>When the real time reaches to the time entered by a user an alarm will be rang & the name of the medicine which should be taken is displayed.</li>
     </ul>
+    <h3>Demo</h3>
+    <iframe class="demo-video" src="https://www.youtube.com/embed/hD4yxPrHtPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h3>Advantages</h3>
     <ul>
         <li>Cheaper system</li>
@@ -60,5 +62,10 @@ export default {
     img{
         width: 70%;
         margin-left: 15%;
+    }
+    .demo-video{
+        width: 90%;
+        height: 400px;
+        margin-left: 5%;
     }
 </style>
