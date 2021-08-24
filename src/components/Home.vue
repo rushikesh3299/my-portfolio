@@ -47,7 +47,6 @@ h3{
 
 img{
   height: 300px;
-  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
