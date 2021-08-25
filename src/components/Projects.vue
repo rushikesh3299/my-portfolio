@@ -6,7 +6,7 @@
       <div class="project-section">
         <div v-for="prj in prjList" :key="prj.title" class="project-list">
           <h4>{{prj.title}}</h4>
-          <p>{{prj.date}}</p>
+          <p class="prj-date">{{prj.date}}</p>
           <p class="discription">{{prj.discription}}</p>
           <div class="prj-nav-btn">
             <a :href="prj.liveLink" target="_blank">See MyProject</a>
@@ -132,6 +132,10 @@ export default {
   width: 280px;
   height: 270px;
   position: relative;
+}
+
+.prj-date{
+  color: #555;
 }
 
 .project-list h4, .project-list p{

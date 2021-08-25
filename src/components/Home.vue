@@ -93,6 +93,10 @@ h1 span{
   justify-content: center;
 }
 
+.box p{
+  margin: 0;
+}
+
 .projects{
   padding: 1rem 0;
   border-radius: 10px;

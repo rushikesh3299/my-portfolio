@@ -5,16 +5,19 @@
       </div>
       <div class="blog1 blog">
         <h2 class="blog-title">Portable Programmable Medicine Reminder</h2>
+        <p class="date-time">Aug 2021 • 5 min read</p>
         <p class="blog-content">Elder people or people with Alzheimer’s disease always forgot to take their medicine</p>
         <router-link class="blog-link" to="blogc">Read More...</router-link>
       </div>
       <div class="blog2 blog">
         <h2 class="blog-title">OS Installation On Raspberry Pi</h2>
+        <p class="date-time">Aug 2021 • 4 min read</p>
         <p class="blog-content">Raspberry Pi has become the embedded programmers & students first choice</p>
         <router-link class="blog-link" to="bloga">Read More...</router-link>
       </div>
       <div class="blog3 blog">
         <h2 class="blog-title">LED Interfacing with 8051</h2>
+        <p class="date-time">Aug 2021 • 4 min read</p>
         <p class="blog-content">With the advancement in technology chips are getting fabricated in lesser</p>
         <router-link class="blog-link" to="blogb">Read More...</router-link>
       </div>
@@ -43,6 +46,15 @@ export default {
   padding: 0 1rem 1rem 1rem;
   border: 2px solid #5B2C6F;
   border-radius: 10px;
+}
+
+.date-time{
+  margin: 0;
+  color: #555;
+}
+
+.blog-title{
+  margin-bottom: .5rem;
 }
 
 .blog-link{
