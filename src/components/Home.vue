@@ -1,25 +1,38 @@
 <template>
   <div class="container">
     <div class="intro">
-      <img class="top-img" src="../assets/myphoto.jpg" alt="img loading">
-      <h3>Rushikesh Chougule</h3>
-      <h4>The Web Developer</h4>
+      <h1>Hi there!</h1>
+      <h1>I'm <span>Rushikesh</span> An Aspiring Web Developer</h1>
+      <p>I am 2020 Batch graduate Learning & Seeking career opportunities in Web Development</p>
     </div>
-    <div class="technologies">
-      <h3>Technologies</h3>
-      <p>I am familier with HTML5, CSS3, JavaScript, Git & Web Hosting</p>
-      <img src="html.svg" alt="">
-      <img src="css.svg" alt="">
-      <img src="js.svg" alt="">
-      <img src="git.svg" alt="">
+    <div class="skills">
+      <h3>My Skills</h3>
+      <div class="skill-boxes">
+        <div class="box">
+          <img src="html.svg" alt="">
+          <p>HTML</p>
+        </div>
+        <div class="box">
+          <img src="css.svg" alt="">
+          <p>CSS</p>
+        </div>
+        <div class="box">
+          <img src="js.svg" alt="">
+          <p>Javascript</p>  
+        </div>
+        <div class="box">
+          <img src="git.svg" alt="">
+          <p>Git</p>  
+        </div>
+      </div>
     </div>
     <div class="projects">
-      <h3>Projects</h3>
+      <h3>My Projects</h3>
       <p>I have developed some projects & deployed online you can see them by clicking below button</p>
       <router-link to="Projects" class="btn">See My Projects</router-link>
     </div>
     <div class="blogs">
-      <h3>Blogs</h3>
+      <h3>My Blogs</h3>
       <p>I have also written some technical & non-technical blogs you can see them by clicking below buttton</p>
       <router-link to="Blogs" class="btn">Read My Blogs</router-link>
     </div>
@@ -55,18 +68,29 @@ img{
   margin: 0 1rem;
 }
 
-.top-img{
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1rem 0;
+.intro{
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
-.technologies{
+.intro h1{
+  font-weight: 100;
+}
+
+h1 span{
+  color: #A569BD;
+}
+
+.skills{
   background-color: #F4ECF7 ;
   padding: .6rem 0;
   border-radius: 10px;
+}
+
+.skill-boxes{
+  display: flex;
+  justify-content: center;
 }
 
 .projects{

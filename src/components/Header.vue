@@ -28,6 +28,7 @@ export default {
 .title-name{
   padding: 1rem;
   display: flex;
+  font-family: 'Dancing Script', cursive;
 }
 
 .title-name h2{
