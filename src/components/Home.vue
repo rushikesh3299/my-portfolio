@@ -67,11 +67,11 @@ export default {
       return{
         prjList:[
           {
-            title:"Emoji Detector",
-            date:"July, 2021",
-            discription:"An emoji detector app designed in ReactJS",
-            liveLink:"https://ejyuy.csb.app/",
-            githubLink:"https://github.com/rushikesh3299/neog-emoji-detect"
+            title:"SearchApp",
+            date:"August, 2021",
+            discription:"An app which works as search engine using free API from Wikipedia",
+            liveLink:"https://rcsearchapp.netlify.app/",
+            githubLink:"https://github.com/rushikesh3299/search_app"
           },
           {
             title:"Birthday Palindrome",
