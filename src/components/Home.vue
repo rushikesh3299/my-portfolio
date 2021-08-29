@@ -50,10 +50,10 @@
         <router-link class="blog-link" to="blogc">Read More...</router-link>
       </div>
       <div class="blog2 blog">
-        <h2 class="blog-title">OS Installation On Raspberry Pi</h2>
+        <h2 class="blog-title">Counters In 8051</h2>
         <p class="date-time">Aug 2021 • 4 min read</p>
-        <p class="blog-content">Raspberry Pi has become the embedded programmers & students first choice</p>
-        <router-link class="blog-link" to="bloga">Read More...</router-link>
+        <p class="blog-content">Timer/Counter are an integral part of 8051 as well as any of the other microcontrollers.</p>
+        <a href="https://hashnode.com/post/counters-in-8051-cksx2ifa10j6ukxs132gsg061" target="_blank" class="blog-link">Read More...</a>
       </div>
       <router-link to="Blogs" class="btn">See More</router-link>
     </div>

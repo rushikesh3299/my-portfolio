@@ -3,6 +3,12 @@
       <div class="page-title">
         <h3>See My Blogs</h3>
       </div>
+      <div class="blog">
+        <h2 class="blog-title">Counters In 8051</h2>
+        <p class="date-time">Aug 2021 • 4 min read</p>
+        <p class="blog-content">Timer/Counter are an integral part of 8051 as well as any of the other microcontrollers.</p>
+        <a href="https://hashnode.com/post/counters-in-8051-cksx2ifa10j6ukxs132gsg061" target="_blank" class="blog-link">Read More...</a>
+      </div>
       <div class="blog1 blog">
         <h2 class="blog-title">Portable Programmable Medicine Reminder</h2>
         <p class="date-time">Aug 2021 • 5 min read</p>
