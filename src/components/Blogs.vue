@@ -15,12 +15,6 @@
         <p class="blog-content">Elder people or people with Alzheimer’s disease always forgot to take their medicine</p>
         <router-link class="blog-link" to="blogc">Read More...</router-link>
       </div>
-      <div class="blog2 blog">
-        <h2 class="blog-title">OS Installation On Raspberry Pi</h2>
-        <p class="date-time">Aug 2021 • 4 min read</p>
-        <p class="blog-content">Raspberry Pi has become the embedded programmers & students first choice</p>
-        <router-link class="blog-link" to="bloga">Read More...</router-link>
-      </div>
       <div class="blog3 blog">
         <h2 class="blog-title">LED Interfacing with 8051</h2>
         <p class="date-time">Aug 2021 • 4 min read</p>
