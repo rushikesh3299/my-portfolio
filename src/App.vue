@@ -5,33 +5,23 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Foot from './components/Foot.vue'
+import Header from "./components/Header.vue";
+import Foot from "./components/Foot.vue";
 export default {
-  name: 'App',
-  components:{
-      Header,
-      Foot
-  }
-}
+  name: "App",
+  components: {
+    Header,
+    Foot,
+  },
+};
 </script>
 
 <style>
-body{
-  margin: 0;
-}
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 900px;
-  margin: auto;
-}
-
-@media only screen and (max-width: 800px) {
-  *{
-    font-size: 1.5rem;
-  }
+  margin: 0 auto;
 }
 </style>
