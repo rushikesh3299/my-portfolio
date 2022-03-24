@@ -33,39 +33,23 @@ export default {
 </script>
 
 <style scoped>
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 .container {
-  text-align: center;
-  border-top: 2px solid #5b2c6f;
-  margin-top: 1rem;
+  border-top: 2px solid var(--primary-color);
+  margin: 1rem;
 }
 
 .footer {
-  padding: 1rem;
-  margin: auto;
+  text-align: center;
 }
 
-.footer-icon .fa {
-  text-decoration: none;
-  padding: 1rem;
-  padding-top: 0;
+.footer-icon a {
+  color: var(--);
   font-size: 2rem;
-  color: #555;
-}
-
-.footer-info a {
   padding: 1rem;
-  text-decoration: none;
-  color: #555;
 }
 
-.footer a:hover {
-  color: black;
-}
-
-@media only screen and (max-width: 800px) {
-  .footer-info a {
-    display: block;
-  }
+.footer-info {
+  display: flex;
+  justify-content: space-around;
 }
 </style>
